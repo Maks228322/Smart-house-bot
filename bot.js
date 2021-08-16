@@ -14,7 +14,7 @@ bot.start((ctx) =>
   )
 );
 // Обработчик команды /help
-bot.help((ctx) => ctx.reply("Этот бот поддерживает такие команды: /whoami, /photo, /start, /help"));
+bot.help((ctx) => ctx.reply("Этот бот поддерживает такие команды: /whoami, /start, /help"));
 
 // Обработчик команды /whoami
 bot.command("whoami", (ctx) => {
